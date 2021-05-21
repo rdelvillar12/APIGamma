@@ -1,0 +1,37 @@
+{
+  "name": "apiactaentrega2",
+  "version": "1.0.0",
+  "description": "GeneradorReportes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "RVI VG",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "apollo-server": "^2.24.1",
+    "axios": "^0.21.1",
+    "basic-auth": "^2.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "eslint": "^7.26.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.7.0",
+    "graphql-yoga": "^1.18.3",
+    "jest": "^26.6.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  }
+}
